@@ -1,0 +1,46 @@
+.carousel-item {
+    max-height: 90vh;
+}
+
+.carousel-caption {
+    background-color: black;
+    opacity: 0.7;
+}
+
+.carousel-item h5, .carousel-item p {
+    color: white;
+}
+
+.separador{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador img {
+    width: 100px;
+}
+
+.rejilla .row{
+    margin-top: 5%;
+}
+
+.rejilla .row > div{
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+
+
+/* Media Queries  */
+
+/* Vista Movil */
+@media screen and (max-width:480px){
+    .carousel-item{
+        height: fit-content;
+    }
+}

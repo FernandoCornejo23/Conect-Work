@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+/* footer  */
+
+footer {
+    min-height: fit-content;
+    width: 100%;
+    background-color: #0B0D17;
+}
+
+footer .container .row{
+    padding: 5% 0 2% 0;
+}
+
+footer .logo-footer .row{
+    display: flex;
+    justify-content: left;
+}
+
+footer .logo-footer img{
+    margin: 0;
+    padding: 0;
+}
+
+footer h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F4F5F7;
+    padding-bottom: 10%;
+}
+
+footer h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EEEFF4;
+    padding: 5% 0 5% 0;
+}
+
+/* Media Queries  */
+
+/* Vista Movil */
+@media screen and (max-width:480px){
+    footer h4 {
+        font-size: 15px;
+    }
+    
+    footer h5 {
+        font-size: 10px;
+    }
+}
